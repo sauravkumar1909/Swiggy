@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { useParams, Link } from "react-router-dom";
 import MenuCard from "./MenuCard"
-import { Link } from "react-router";
 
 
 export default function RestaurantMenu(){
